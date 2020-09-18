@@ -2,11 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+  
+  border-bottom-width: 2px;
+  height: 35px;
+  text-shadow: #282c34;
+  border-radius: 10px;
+  font: fantasy;
+  overflow: hidden;
+  color: green;
+  font-size: large;
+  
+  
+  
 }
 
+.button{
+  height : 35px;
+  margin-left: 20px;
+  border-radius: 5px;
+  transition: all ;
+  font-size: 20px;
+  font-style: oblique;
+  
+
+}
+.button:hover{
+background-color: red;
+}
+
+.button1{
+  height : 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  transition: all ;
+  margin-top: 35px;
+
+}
+.button1:hover{
+background-color: red;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
